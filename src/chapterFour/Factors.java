@@ -10,16 +10,19 @@ public class Factors {
         System.out.print("Enter a number: ");
         int number = input.nextInt();
 
-        int numberCounter = number;
-        int counter = 0;
+        int counter = 1;
+        int factorsCounter = 0;
 
-         while (number % numberCounter != 0 ) {
+         while (counter <= number) {
+             if (number % counter == 0) {
+                 factorsCounter = factorsCounter + 1;
 
-             if (number/number == 0)
-                 counter = counter + 1;
+             }
 
-             System.out.printf("%d has %d factors", number, counter);
+             counter = counter + 1;
+
          }
+        System.out.printf("%d has %d factors", number, factorsCounter);
 
     }
 }

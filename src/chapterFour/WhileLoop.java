@@ -3,7 +3,7 @@ package chapterFour;
 public class WhileLoop {
     public static void main(String[] args) {
 
-        /**int i = 1;
+        int i = 1;
 
         while (i <= 10) {
             System.out.print(i + " ");
@@ -12,12 +12,13 @@ public class WhileLoop {
         }
 
     }
-}*/
+}
 
-int product = 3;
+/**int product = 3;
 while (product <= 100) {
     product = 3 * product;
     product+=3;
         }
     }
     }
+*/
